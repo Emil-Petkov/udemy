@@ -8,6 +8,8 @@ pet_name = input("What is the name of a pet?\n")
 
 print(band_name(city, pet_name))
 
+#################################################################
+
 # print("Welcome to the band name generator.")
 # city = input("Which city did you grow up it?")
 # pet= input("What is the name of a pet?")
