@@ -7,4 +7,3 @@ else:
     print("Not leap year.")
 
 
-
