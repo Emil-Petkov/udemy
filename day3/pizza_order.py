@@ -19,7 +19,6 @@ peperoni = {
 
 cheese = {
     "Y": 1,
-    "N": 0,
 }
 
 if size in price_for_size:
