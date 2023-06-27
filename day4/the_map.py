@@ -17,4 +17,3 @@ select_row = map[row]
 select_row[col - 1] = "X"
 
 print(f"{row1}\n{row2}\n{row3}")
-
