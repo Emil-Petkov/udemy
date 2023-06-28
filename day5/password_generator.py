@@ -2,10 +2,10 @@ import string
 import random
 
 
-def generate_password(how_many_latter: int, how_many_symbols: int, how_many_numbers: int):
+def generate_password(how_many_latters: int, how_many_symbols: int, how_many_numbers: int):
     password = []
 
-    def letters_in_password(how_many_latter: int):
+    def letters_in_password(how_many_latters: int):
         for _ in range(how_many_latter):
             password.append(random.choice(string.ascii_letters))
 
@@ -17,7 +17,7 @@ def generate_password(how_many_latter: int, how_many_symbols: int, how_many_numb
         for _ in range(how_many_numbers):
             password.append(random.choice(string.digits))
 
-    letters_in_password(how_many_latter)
+    letters_in_password(how_many_latters)
     symbols_in_password(how_many_symbols)
     numbers_in_password(how_many_numbers)
 
