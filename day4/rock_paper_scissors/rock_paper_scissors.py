@@ -46,3 +46,4 @@ elif player_choose == "s" and pc_choose == "p":
     print("You Win")
 elif player_choose == "s" and pc_choose == "r":
     print("You Lose")
+
