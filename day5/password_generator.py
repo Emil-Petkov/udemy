@@ -35,4 +35,3 @@ how_many_numbers = int(input("How many numbers would you like: "))
 print(f"\nHere is your password: {generate_password(how_many_latter, how_many_symbols, how_many_numbers)}")
 
 
-
