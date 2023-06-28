@@ -36,4 +36,3 @@ print(f"\nHere is your password: {generate_password(how_many_latter, how_many_sy
 
 
 
-
