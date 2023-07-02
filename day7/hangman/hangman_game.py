@@ -14,7 +14,9 @@ end_of_game = False
 print(logo)
 
 while not end_of_game:
-    guess = input("Guess a letter: ").lower()
+    print(' '.join(hidden_word))
+
+    guess = input("\nGuess a letter: ").lower()
 
     if guess in hidden_word:
         print(f"You've already guessed '{guess}'")
