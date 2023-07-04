@@ -26,3 +26,6 @@ for name, bid in participants_in_the_auction.items():
         max_bid = participants_in_the_auction[name]
 
         print(f"\nThe winner is {name} with a bid of ${max_bid}.")
+
+
+
