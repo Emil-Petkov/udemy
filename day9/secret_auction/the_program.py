@@ -28,4 +28,3 @@ for name, bid in participants_in_the_auction.items():
         print(f"\nThe winner is {name} with a bid of ${max_bid}.")
 
 
-
