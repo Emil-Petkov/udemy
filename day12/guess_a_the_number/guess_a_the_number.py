@@ -109,3 +109,15 @@ game()
 #
 # choose = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
 # difficultly_level(choose)
+
+
+
+
+
+
+
+
+
+
+
+
