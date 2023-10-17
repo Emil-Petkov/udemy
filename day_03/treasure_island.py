@@ -1,4 +1,6 @@
-print("Welcome to Treasure Island.\n"
+from ascii_art import treasure
+
+print(treasure + "\nWelcome to Treasure Island.\n"
       "Your mission is to find the treasure.")
 
 first_choice = input("You're at a cross road." + 'Where do you want to go? Type "left" or "right"\n')
