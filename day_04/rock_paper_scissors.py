@@ -1,5 +1,5 @@
 import random
-from assci_art import rock, paper, scissors
+from ascii_art import rock, paper, scissors
 
 
 def rock_paper_scissors(choice: str):
