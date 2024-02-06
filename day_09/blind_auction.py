@@ -2,6 +2,7 @@
 
 
 
+
 from ascii_art import img
 
 print(f'Welcome to the sicret auction.\n {img}\n')
