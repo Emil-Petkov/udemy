@@ -1,4 +1,5 @@
 
+
 def calculator(f_num: float, operator: str, s_num: float):
     if s_num == 0 and operator in ['/', '//', '%']:
         return 'Divide by Zero.'
