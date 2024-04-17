@@ -18,9 +18,9 @@ def calculator(f_num: float, operator: str, s_num: float):
         raise ValueError('Invalid operator.')
 
 
-first_number = float(input())
-operation = input()
-second_number = float(input())
+first_number = float(input('First number: '))
+operation = input('Operation ')
+second_number = float(input('Second number: '))
 
 try:
     result = calculator(first_number, operation, second_number)
